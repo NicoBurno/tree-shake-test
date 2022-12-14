@@ -1,0 +1,24 @@
+{
+  "name": "tree-shake-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoBurno/tree-shake-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoBurno/tree-shake-test/issues"
+  },
+  "homepage": "https://github.com/NicoBurno/tree-shake-test#readme",
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "sideEffects": false
+}
